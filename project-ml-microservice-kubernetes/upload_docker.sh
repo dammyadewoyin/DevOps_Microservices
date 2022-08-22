@@ -11,7 +11,6 @@ dockerpath=arrahdami/mlproject
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-#sudo docker login
 docker tag mlproject arrahdami/mlproject:v1
 
 # Step 3:
