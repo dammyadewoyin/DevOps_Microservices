@@ -12,8 +12,8 @@ dockerpath=arrahdami/mlproject
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker login
-docker tag mlproject arrahdami/mlproject:v1
+docker tag mlproject:latest arrahdami/mlproject:latest
 
 # Step 3:
 # Push image to a docker repository
-docker push arrahdami/mlproject:v1
+docker push arrahdami/mlproject:latest
